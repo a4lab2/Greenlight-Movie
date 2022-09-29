@@ -18,7 +18,10 @@ import (
 	"greenlight.a4lab.net/internal/mailer"
 )
 
-const version = "1.0.0"
+var (
+	version   string
+	buildTime string
+)
 
 type config struct {
 	port int
@@ -54,8 +57,6 @@ type application struct {
 	mailer mailer.Mailer
 	wg     sync.WaitGroup
 }
-
-var buildTime string
 
 func main() {
 	var cfg config
