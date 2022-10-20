@@ -3,7 +3,7 @@ include .envrc
 # ==================================================================================== #
 # PRODUCTION
 # ==================================================================================== #
-production_host_ip = '67.207.95.65'
+production_host_ip = 'x.x.x.x'
 ## production/connect: connect to the production server
 .PHONY: production/connect
 production/connect:
