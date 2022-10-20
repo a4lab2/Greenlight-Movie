@@ -1,4 +1,4 @@
-http://67.207.95.65 {
+http://x.x.x.65 {
 	respond /debug/* "Not Permitted" 403
 	reverse_proxy localhost:4000
 	}
